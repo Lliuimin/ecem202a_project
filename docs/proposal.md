@@ -26,6 +26,7 @@ The first challenge of this project is the accuracy of ultrasonic sensors, which
 
 ## 6. Requirements for Success
 
+The task can be divided into the following three parts:    
     • Arduino & Ultrasound    
     • Raspberry Pi & IR camera    
     • Earable & App development    
@@ -67,7 +68,7 @@ A successful obstacle detecting and warning system must have the following prope
 1. Obstacle detection and reminder     
 2. Obstacle pre-recognition by camera    
 3. Development of Earable application on Arduino smart phone    
-4. Programming the controller Arduino and communication between parts    
+4. Programming the controller Arduino and communication between parts  
 Partitioning:      
 Task 1 is to be done by Ruoye Wang, task 2,3 are to be done by Jinchen Wu, and task 4 is done together.   
 
