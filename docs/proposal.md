@@ -26,12 +26,12 @@ The first challenge of this project is the accuracy of ultrasonic sensors, which
 
 ## 6. Requirements for Success
 
-The task can be divided into the following three parts:    
-    • Arduino & Ultrasound    
-    • Raspberry Pi & IR camera    
-    • Earable & App development    
-The resources needed for this projects are listed below:    
-    • Devices：    
+- The task can be divided into the following three parts:    
+    - Arduino & Ultrasound    
+    - Raspberry Pi & IR camera    
+    - Earable & App development    
+-The resources needed for this projects are listed below:    
+    - Devices：    
         1. Arduino Nano 33 BLE Sense    
         2. Raspberry Pi 3    
         3. IR camera    
@@ -39,28 +39,28 @@ The resources needed for this projects are listed below:
         5. Earable earphones     
         6. Smartphone    
         7. Other auxiliary parts     
-    • Software:    
+    - Software:    
         1. Arduino IDE   
         2. Android studio   
         3. Earable smartphone application   
-    • Background research materials:    
+    - Background research materials:    
         1. Various IEEE papers    
         2. Arduino and Raspberry Pi tutorials      
-The skills needed are:    
-    • Arduino and Raspberry Pi programming
-    • Use of neural networks ‘YOLO’
-    • Android application development (Java)    
-    • GitHub    
-    • Hardware usage, connection and debugging    
-    • Teamworking     
-    • Time management    
+-The skills needed are:    
+    - Arduino and Raspberry Pi programming
+    - Use of neural networks ‘YOLO’
+    - Android application development (Java)    
+    - GitHub    
+    - Hardware usage, connection and debugging    
+    - Teamworking     
+    - Time management    
 
 ## 7. Metrics of Success
 
 A successful obstacle detecting and warning system must have the following properties: fast and accurate obstacle detecting, proper classification and judgement of obstacles, in-time and clear warning, easy operation and robustness. They can be qualified as:     
-    • The speed with which the system response to obstacle (in seconds)     
-    • The rate of successful obstacle detection (%), while the obstacles' type, distance, moving speed vary     
-    • The speed with which a user walks under the assistance of our system    
+    - The speed with which the system response to obstacle (in seconds)     
+    - The rate of successful obstacle detection (%), while the obstacles' type, distance, moving speed vary     
+    - The speed with which a user walks under the assistance of our system    
     To measure those metrics, various tests and trials can be conducted.    
 
 ## 8. Execution Plan
@@ -76,17 +76,22 @@ Task 1 is to be done by Ruoye Wang, task 2,3 are to be done by Jinchen Wu, and t
 
 ### 9.a. Papers
 
-List the key papers that you have identified relating to your project idea, and describe how they related to your project. Provide references (with full citation in the References section below).
+Many modern designs still use the shape of a white cane, only that the white cane now has senses.       
+The Augmented Cane, presented by Slade et al. [4], utilizes multiple kinds of sensors including 2D LIDAR, camera, GPS antenna, and inertial measurement unit to provide various functions like obstacle avoidance, orientation and navigation. It shows a wide range of choice of sensors and feedbacks. However, most of its sensors are expensive and overqualified for our goal.      
+With lower cost, Wahab et al. [6] produce a prototype of smart cane that detects obstacles with 40kHz ultrasonic sensors, and feeds warning back in the form of voices, only 3 types of which are provided. Chung et al. [7] present another design of smart cane that utilizes an ultrasonic sensor to detect obstacles and a gyroscope to prevent falling; it also has a voice navigation system which communicates with smartphone application via Bluetooth to guide the user to their destination.      
+The above realization of smart canes have proven the feasibility of ultrasonic obstacle detection, and the latter, in particular, enlightened us that smart phone applications can be connected to the device via Bluetooth to provide more user-friendly feedback.       
+Additionally, We need to use the camera for more real-time obstacle detection, so we will refer to the smaller and faster YOLOv5s[8] to implement this function, and optimize it for our usage scenarios. We also infer the article Earables for Personal-Scale Behavior Analytics[9], which introduces a programmable earphone with sensors such as a built-in gyroscope. We use this earable to provide obstacle detection feedback, and the built-in sensor data can also provide corrections to the obstacle detection algorithm. This article and related technical documents help us develop a mobile application adapted to our project.   
+
 
 ### 9.b. Datasets
 
-We will use COCO[6] and VOC[7] to finetune our 'YOLO' network.    
+We will use COCO[10] and VOC[11] to finetune our 'YOLO' network.    
 
 ### 9.c. Software
 
 List softwate that you have identified and plan to use. Provide references (with full citation in the References section below).
-• Android studio    
-• Arduino IDE    
+- Android studio    
+- Arduino IDE    
 
 
 ## 10. References
@@ -94,7 +99,14 @@ List softwate that you have identified and plan to use. Provide references (with
 [1] Hossain, E., Khan, M.R., Muhida, R. and Ali, A. (2011) ‘State of the art review on walking support system for visually impaired people’, Int. J. Biomechatronics and Biomedical Robotics, Vol. 1, No. 4, pp.232–251.     
 [2] https://tactilenavigationtools.com/#:~:text=The%20Eyeronman%2C%20is%20a%20hands,user's%20through%20superior%20situation%20awareness.     
 [3] Project Guideline: Can Technology Help A Blind Runner Navigate?     
-[4] P. Slade, A. Tambe, M. J. Kochenderfer, Multimodal sensing and intuitive steering assistance improve navigation and mobility for people with impaired vision. Sci. Robot. 6, eabg6594 (2021    
+[4] P. Slade, A. Tambe, M. J. Kochenderfer, Multimodal sensing and intuitive steering assistance improve navigation and mobility for people with impaired vision. Sci. Robot. 6, eabg6594 (2021)    
 [5] https://wewalk.io/en/    
+[6]    
+[7]     
+[8] Fahim Kawsar, Chulhong Min, Akhil Mathur, Alessandro Montanari, Utku Gunay Acer, Marc Van den Broeck, Nokia Bell Labs, ESense: Open Earable Platform for Human Sensing, ACM MobiSys 2018, ACM UbiComp 2018, ACM SenSys 2018       
+[9] https://docs.ultralytics.com/      
+[10] https://cocodataset.org/#home     
+[11] https://www.tensorflow.org/datasets/catalog/voc     
+
 
 
