@@ -96,9 +96,9 @@ List softwate that you have identified and plan to use. Provide references (with
 
 ## 10. References
 
-[1] Hossain, E., Khan, M.R., Muhida, R. and Ali, A. (2011) ‘State of the art review on walking support system for visually impaired people’, Int. J. Biomechatronics and Biomedical Robotics, Vol. 1, No. 4, pp.232–251.     
-[2] https://tactilenavigationtools.com/#:~:text=The%20Eyeronman%2C%20is%20a%20hands,user's%20through%20superior%20situation%20awareness.     
-[3] Project Guideline: Can Technology Help A Blind Runner Navigate?     
+[1] Hossain, E., Khan, M.R., Muhida, R. and Ali, A. (2011) ‘State of the art review on walking support system for visually impaired people’, Int. J. Biomechatronics and Biomedical Robotics, Vol. 1, No. 4, pp.232–251     
+[2] https://tactilenavigationtools.com/#:~:text=The%20Eyeronman%2C%20is%20a%20hands,user's%20through%20superior%20situation%20awareness    
+[3] Project Guideline: Can Technology Help A Blind Runner Navigate     
 [4] P. Slade, A. Tambe, M. J. Kochenderfer, Multimodal sensing and intuitive steering assistance improve navigation and mobility for people with impaired vision. Sci. Robot. 6, eabg6594 (2021)    
 [5] https://wewalk.io/en/    
 [6] M. Wahab, A. Talib, H. Kadir, A. Johari, A. Noraziah, R. Sidek and A. Mutalib, "Smart Cane: Assisitive Cane for Visually-impaired People", International Journal of Computer Science Issues, Vol. 8, Issue 4, No 2, pp. 21-27, July 2011       
