@@ -30,7 +30,7 @@ The first challenge of this project is the accuracy of ultrasonic sensors, which
     - Arduino & Ultrasound    
     - Raspberry Pi & IR camera    
     - Earable & App development    
--The resources needed for this projects are listed below:    
+- The resources needed for this projects are listed below:    
     - Devices：    
         1. Arduino Nano 33 BLE Sense    
         2. Raspberry Pi 3    
@@ -46,7 +46,7 @@ The first challenge of this project is the accuracy of ultrasonic sensors, which
     - Background research materials:    
         1. Various IEEE papers    
         2. Arduino and Raspberry Pi tutorials      
--The skills needed are:    
+- The skills needed are:    
     - Arduino and Raspberry Pi programming
     - Use of neural networks ‘YOLO’
     - Android application development (Java)    
