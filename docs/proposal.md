@@ -101,8 +101,8 @@ List softwate that you have identified and plan to use. Provide references (with
 [3] Project Guideline: Can Technology Help A Blind Runner Navigate?     
 [4] P. Slade, A. Tambe, M. J. Kochenderfer, Multimodal sensing and intuitive steering assistance improve navigation and mobility for people with impaired vision. Sci. Robot. 6, eabg6594 (2021)    
 [5] https://wewalk.io/en/    
-[6]    
-[7]     
+[6] M. Wahab, A. Talib, H. Kadir, A. Johari, A. Noraziah, R. Sidek and A. Mutalib, "Smart Cane: Assisitive Cane for Visually-impaired People", International Journal of Computer Science Issues, Vol. 8, Issue 4, No 2, pp. 21-27, July 2011       
+[7] I. Chung, S. Kim and K. Rhee, "The Smart Cane Utiliziing a Smart Phone for the VIsually Impaird Person," in IEEE 3rd Glob. Conf. Consum. Electron.(GCCE), 2014, pp. 106-107        
 [8] Fahim Kawsar, Chulhong Min, Akhil Mathur, Alessandro Montanari, Utku Gunay Acer, Marc Van den Broeck, Nokia Bell Labs, ESense: Open Earable Platform for Human Sensing, ACM MobiSys 2018, ACM UbiComp 2018, ACM SenSys 2018       
 [9] https://docs.ultralytics.com/      
 [10] https://cocodataset.org/#home     
